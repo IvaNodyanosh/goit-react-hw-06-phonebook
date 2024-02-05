@@ -1,0 +1,37 @@
+.contactList{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactList__item{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    max-width: 700px;
+}
+
+.contactList__text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contactList__name{
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.contactList__button{
+        padding: 2px 10px;
+        margin-left: auto;
+            background-color: #fa464f;
+            border: transparent;
+            border-radius: 7px;
+}
+
+.contactList__icon{
+        height: auto;
+            width: 30px;
+            fill: white;
+}

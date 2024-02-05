@@ -1,0 +1,22 @@
+.filter__input{
+    padding: 5px 10px;
+    border-radius: 7px;
+
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.filter__label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.filter__icon{
+        width: 30px;
+            height: auto;
+            fill: #14d6fc;
+            margin-right: 10px;
+}
