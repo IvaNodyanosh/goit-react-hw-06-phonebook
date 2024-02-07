@@ -14,6 +14,8 @@ export const ContactForm = () => {
 
   const dispatch = useDispatch();
 
+  const id = nanoid()
+
   const handleAddContact = contact => dispatch(addContact(contact));
   const contacts = useSelector(getContacts);
 
@@ -26,7 +28,7 @@ export const ContactForm = () => {
       return alert(`${number}is already in contacts`);
     }
     e.preventDefault();
-    handleAddContact({ id: nanoid(), name: name, number: number });
+    handleAddContact({ id, name: name, number: number });
   };
 
   const [contactInfo, changeContactInfo] = useState({

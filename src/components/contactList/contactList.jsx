@@ -17,9 +17,10 @@ export const ContactList = () => {
    const handleRemoveContact = contact => dispatch(removeContact(contact));
 
   const deleteContact = e => {
-    const { id } = Number(e.currentTarget);
+    const { id } = e.currentTarget;
 
     handleRemoveContact(id);
+    console.log(id)
   };
   return (
     <ul className={css.contactList}>
